@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <section class="hero">
+      <header class="header">
+        <a href="" class="logo">
+          <img
+            src="/img/content/logos/logo-main.png"
+            alt="lost shitr logo"
+            class="logo__pic"
+          />
+        </a>
+        <div class="header__content">
+          <div class="header__content__text">
+            <h1 class="lined-text">
+              <div class="lined-text__word">три</div>
+              <div class="lined-text__word">футболки</div>
+              <div class="lined-text__word lined-text__word--color-yellow">
+                по цене
+              </div>
+              <div class="lined-text__word lined-text__word--color-yellow">
+                двух
+              </div>
+            </h1>
+          </div>
+        </div>
+        <a href="mailto:lostinspace@mail.ru" class="mail">
+          <div class="mail__title">По всем вопросам пишите на:</div>
+          <div class="mail__content">lostinspace@mail.ru</div>
+        </a>
+      </header>
+    </section>
+
+    <section class="products">
+      <div class="container">
+        <ul class="products__list">
+          <li class="products__item">
+            <ul class="tshirts__img">
+              <li class="tshirts__img products__item--type-img black">
+                <img
+                  src="img/tshirts/tshirt_07.png"
+                  alt=""
+                  class="tshirt__img tshirt__img--color-black"
+                />
+              </li>
+              <li class="tshirts__img products__item--type-img white">
+                <img
+                  src="img/tshirts/tshirt_08.png"
+                  alt=""
+                  class="tshirt__img tshirt__img--color-white"
+                />
+              </li>
+              <li
+                class="tshirts__img products__item--type-img green tshirt__img-active"
+              >
+                <img
+                  src="img/tshirts/tshirt_09.png"
+                  alt=""
+                  class="tshirt__img tshirt__img--color-green"
+                />
+              </li>
+              <li class="tshirts__img products__item--type-img blue">
+                <img
+                  src="img/tshirts/tshirt_10.png"
+                  alt=""
+                  class="tshirt__img tshirt__img--color-blue"
+                />
+              </li>
+              <li class="tshirts__img products__item--type-img red">
+                <img
+                  src="img/tshirts/tshirt_11.png"
+                  alt=""
+                  class="tshirt__img tshirt__img--color-red"
+                />
+              </li>
+            </ul>
+          </li>
+
+          <li class="products__item products__item--type-details">
+            <ul class="details__item--type-info">
+              <li class="item__info item__info--title">
+                <div class="product__brand">Футболка Hurley</div>
+                <div class="product__name">Rick and Morty</div>
+                <div class="product__price">
+                  <div class="product__price-amount">2000</div>
+                </div>
+              </li>
+              <li class="item__info item__info--specification">
+                <div class="product__composition">Состав: Хлопок 100%</div>
+                <div class="product__siason">Сезон: Мульти</div>
+                <div class="product__color">Цвет: Черный</div>
+                <div class="product__pattern">Узор: Рисунки и Надписи</div>
+                <div class="product__country">Страна производитель: Россия</div>
+                <div class="product__code">Артикул: MA002EWDOEZ6</div>
+              </li>
+              <li class="item__info item__info--sizes">
+                <ul class="sizes">
+                  <li class="sizes__item sizes__item--type-disabled">
+                    <a href="#" class="sizes__item-link">XXS</a>
+                  </li>
+                  <li class="sizes__item sizes__item--type-disabled">
+                    <a href="#" class="sizes__item-link">XS</a>
+                  </li>
+                  <li class="sizes__item">
+                    <a href="#" class="sizes__item-link">XXS</a>
+                  </li>
+                  <li class="sizes__item">
+                    <a href="#" class="sizes__item-link">S</a>
+                  </li>
+                  <li class="sizes__item">
+                    <a href="#" class="sizes__item-link">M</a>
+                  </li>
+                  <li class="sizes__item sizes__item--type-active">
+                    <a href="#" class="sizes__item-link">L</a>
+                  </li>
+                  <li class="sizes__item">
+                    <a href="#" class="sizes__item-link">2XL</a>
+                  </li>
+                  <li class="sizes__item sizes__item--type-disabled">
+                    <a href="#" class="sizes__item-link">3XL</a>
+                  </li>
+                </ul>
+                <ul class="colors">
+                  <li class="colors__item">
+                    <a
+                      href="#"
+                      data-filter="black"
+                      class="cirkle cirkle--color-black"
+                    ></a>
+                  </li>
+                  <li class="colors__item">
+                    <a
+                      href="#"
+                      data-filter="white"
+                      class="cirkle cirkle--color-white"
+                    ></a>
+                  </li>
+                  <li class="colors__item colors__item--active">
+                    <a
+                      href="#"
+                      data-filter="green"
+                      class="cirkle cirkle--color-green"
+                    ></a>
+                  </li>
+                  <li class="colors__item">
+                    <a
+                      href="#"
+                      data-filter="blue"
+                      class="cirkle cirkle--color-blue"
+                    ></a>
+                  </li>
+                  <li class="colors__item">
+                    <a
+                      href="#"
+                      data-filter="red"
+                      class="cirkle cirkle--color-red"
+                    ></a>
+                  </li>
+                </ul>
+                <div class="bottom__order">
+                  <a href="#" class="btn bottom__order-text">Купить</a>
+                </div>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="information">
+      <div class="container information__container">
+        <ul class="filter__desk--selectors">
+          <li class="selector discription__desk selector-active">
+            <a href="#" data-filter="discription" class="btn btn-desk"
+              >Описание</a
+            >
+          </li>
+          <li class="selector sizes__desk">
+            <a href="#" data-filter="sizes" class="btn btn-desk"
+              >Таблица размеров</a
+            >
+          </li>
+          <li class="selector delivery__desk">
+            <a href="#" data-filter="delivery" class="btn btn-desk"
+              >Условия доставки</a
+            >
+          </li>
+          <li class="selector brand__desk">
+            <a href="#" data-filter="brand" class="btn btn-desk">О бренде</a>
+          </li>
+        </ul>
+        <ul class="information__tabs">
+          <li class="tab tab__discription discription tab-active">
+            <ul class="tab__discription-items">
+              <li class="col__instruction">
+                <ul class="instruction__items">
+                  <li class="instruction__item--wash">
+                    <div class="instruction__icon">
+                      <svg class="wash__icon">
+                        <use
+                          xlink:href="/img/icons-sprite.svg#washing_01"
+                        ></use>
+                      </svg>
+                    </div>
+                    <div class="instruction__text">
+                      Стирать при температуре 30°С
+                    </div>
+                  </li>
+                  <li class="instruction__item--wash">
+                    <div class="instruction__icon">
+                      <svg class="wash__icon">
+                        <use
+                          xlink:href="/img/icons-sprite.svg#washing_02"
+                        ></use>
+                      </svg>
+                    </div>
+                    <div class="instruction__text">Не отбеливать</div>
+                  </li>
+                  <li class="instruction__item--wash">
+                    <div class="instruction__icon">
+                      <svg class="wash__icon">
+                        <use
+                          xlink:href="/img/icons-sprite.svg#washing_03"
+                        ></use>
+                      </svg>
+                    </div>
+                    <div class="instruction__text">
+                      Гладить теплым утюгом с внутренней стороны
+                    </div>
+                  </li>
+                  <li class="instruction__item--wash">
+                    <div class="instruction__icon">
+                      <svg class="wash__icon">
+                        <use
+                          xlink:href="/img/icons-sprite.svg#washing_04"
+                        ></use>
+                      </svg>
+                    </div>
+                    <div class="instruction__text">
+                      Не подвергать химической чистке
+                    </div>
+                  </li>
+                  <li class="instruction__item--wash">
+                    <div class="instruction__icon">
+                      <svg class="wash__icon">
+                        <use
+                          xlink:href="/img/icons-sprite.svg#washing_05"
+                        ></use>
+                      </svg>
+                    </div>
+                    <div class="instruction__text">Не сушить в барабане</div>
+                  </li>
+                </ul>
+              </li>
+              <li class="col__about">
+                <div class="col__about--text">
+                  Футболка из приятной ткани с качественным принтом, это одна из
+                  самых универсальных вещей в гардеробе. Она подойдет и для
+                  занятий спортом, и для прогулок, и для работы, если разрешен
+                  свободный дресс-код.
+                </div>
+              </li>
+            </ul>
+          </li>
+          <li class="tab tab__sizes sizes">
+            <ul class="size__maps--cols">
+              <li class="col__imgs">
+                <img src="img/tshirts/tshirt_00.png" alt="" />
+                <ol class="size__instruction">
+                  <li>Измерьте ширину, см.(от подмышки до подмышки)</li>
+                  <li>Измерьте длину, см. (от верхней точки плеча до низа)</li>
+                  <li>Сверьте данные с таблицей</li>
+                </ol>
+              </li>
+              <li class="col__sizes">
+                <table class="sizes__table">
+                  <tr class="table__header--mans">
+                    <th>Мужские</th>
+                    <th></th>
+                    <th>XS</th>
+                    <th>S</th>
+                    <th>M</th>
+                    <th>L</th>
+                    <th>XL</th>
+                    <th>2XL</th>
+                    <th>3XL</th>
+                  </tr>
+                  <tr class="table__header-size">
+                    <td>Размер RUS</td>
+                    <td></td>
+                    <td>44</td>
+                    <td>46</td>
+                    <td>48</td>
+                    <td>50</td>
+                    <td>52</td>
+                    <td>54</td>
+                    <td>56</td>
+                  </tr>
+                  <tr class="table__header-wight">
+                    <td>Ширина, см.</td>
+                    <td></td>
+                    <td>46</td>
+                    <td>48</td>
+                    <td>50</td>
+                    <td>52</td>
+                    <td>54</td>
+                    <td>56</td>
+                    <td>58</td>
+                  </tr>
+                  <tr class="table__header-hight">
+                    <td>Длина, см.</td>
+                    <td></td>
+                    <td>65</td>
+                    <td>67</td>
+                    <td>68</td>
+                    <td>71</td>
+                    <td>74</td>
+                    <td>74</td>
+                    <td>74</td>
+                  </tr>
+                  <tr class="table__header--girls">
+                    <th>Женские</th>
+                    <th>XXS</th>
+                    <th>XS</th>
+                    <th>S</th>
+                    <th>M</th>
+                    <th>L</th>
+                    <th>XL</th>
+                    <th>2XL</th>
+                    <th>3XL</th>
+                  </tr>
+                  <td>Размер RUS</td>
+                  <td>36-38</td>
+                  <td>38-40</td>
+                  <td>40-42</td>
+                  <td>42-44</td>
+                  <td>44-46</td>
+                  <td>46-48</td>
+                  <td>48-50</td>
+                  <td>50-52</td>
+                  <tr class="table__header-wight">
+                    <td>Ширина, см.</td>
+                    <td>38</td>
+                    <td>40</td>
+                    <td>42</td>
+                    <td>44</td>
+                    <td>46</td>
+                    <td>48</td>
+                    <td>50</td>
+                    <td>52</td>
+                  </tr>
+                  <tr class="table__header-hight">
+                    <td>Длина, см.</td>
+                    <td>63</td>
+                    <td>65</td>
+                    <td>67</td>
+                    <td>68</td>
+                    <td>71</td>
+                    <td>74</td>
+                    <td>74</td>
+                    <td>74</td>
+                  </tr>
+                  <tr class="table__header-volume">
+                    <td>Обхват груди, см.</td>
+                    <td>68-76</td>
+                    <td>76-80</td>
+                    <td>80-84</td>
+                    <td>84-88</td>
+                    <td>88-92</td>
+                    <td>92-96</td>
+                    <td>96-100</td>
+                    <td>100-104</td>
+                  </tr>
+                </table>
+              </li>
+            </ul>
+          </li>
+          <li class="tab tab__delivery delivery">
+            <ul class="delivery">
+              <li class="delivery__item-logo">
+                <img src="img/content/logos/express.png" alt="" />
+              </li>
+              <li class="delivery__item-text">
+                <div class="first-block">
+                  Доставка по России и странам Ближнего Зарубежья (Украина,
+                  Белорусия, Молдавия, Польша, Эстония, Болгария, Румыния,
+                  Чехия, Словакия, Венгрия и т.д.), всего 400 руб.
+                </div>
+                <div class="second-block">
+                  Мы так же доставляем в США, Японию, Австралию, Англию, Италию,
+                  Испанию и т.д. , стоимость доставки около 600 руб.
+                </div>
+                <div class="therd-block">
+                  (Цена приведена для ориентира и может отличаться в зависимости
+                  от дальности и веса посылки)
+                </div>
+              </li>
+            </ul>
+          </li>
+          <li class="tab tab__brand brand">
+            <ul class="brand">
+              <li class="brand__item-logo">
+                <img src="img/content/logos/harley.png" alt="" />
+              </li>
+              <li class="brand__item-text">
+                <div class="text-block">
+                  Марка Hurley основана на любви к океану с его постоянством в
+                  этом изменчивом мире. Она осуществляет мечты молодого
+                  поколения, сочетая музыку и искусство в дизайне одежды, обуви
+                  и аксессуаров. Наполненная духом пляжной культуры продукция
+                  Hurley предлагает новое восприятие комфорта и
+                  индивидуальности. Hurley выбирает только тот, кто страстно
+                  влюблён в свободу.
+                </div>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <footer calss="footer">
+      <div class="container footer__container">
+        <nav class="site-menu">
+          <ul class="site-menu__sections">
+            <li class="site-menu__col">
+              <h1 class="site-menu__title">Информация</h1>
+              <ul class="site-menu__list">
+                <li class="site-menu__item">
+                  <a href="#" class="site-menu__link">О магазине</a>
+                </li>
+                <li class="site-menu__item">
+                  <a href="#" class="site-menu__link">Адреса магазинов</a>
+                </li>
+                <li class="site-menu__item">
+                  <a href="#" class="site-menu__link">Как сделать заказ?</a>
+                </li>
+                <li class="site-menu__item">
+                  <a href="#" class="site-menu__link">Обмен и возврат</a>
+                </li>
+                <li class="site-menu__item">
+                  <a href="#" class="site-menu__link">Отзывы</a>
+                </li>
+              </ul>
+            </li>
+            <li class="site-menu__col">
+              <h1 class="site-menu__title">Футболки</h1>
+              <ul class="site-menu__list">
+                <li class="site-menu__item">
+                  <a href="#" class="site-menu__link">Популярное</a>
+                </li>
+                <li class="site-menu__item">
+                  <a href="#" class="site-menu__link">Новинки</a>
+                </li>
+                <li class="site-menu__item">
+                  <a href="#" class="site-menu__link">Бестселлеры</a>
+                </li>
+                <li class="site-menu__item">
+                  <a href="#" class="site-menu__link"
+                    >Специальные предложения</a
+                  >
+                </li>
+                <li class="site-menu__item">
+                  <a href="#" class="site-menu__link">Скоро в продаже</a>
+                </li>
+              </ul>
+            </li>
+            <li class="site-menu__col">
+              <h1 class="site-menu__title">Коллекции</h1>
+              <ul class="site-menu__list">
+                <li class="site-menu__item">
+                  <a href="#" class="site-menu__link">Детская коллекция</a>
+                </li>
+                <li class="site-menu__item">
+                  <a href="#" class="site-menu__link">Женская коллекция</a>
+                </li>
+                <li class="site-menu__item">
+                  <a href="#" class="site-menu__link">Мужская коллекция</a>
+                </li>
+                <li class="site-menu__item">
+                  <a href="#" class="site-menu__link"
+                    >Лучшие принты 2021 года</a
+                  >
+                </li>
+                <li class="site-menu__item">
+                  <a href="#" class="site-menu__link"
+                    >Лучшие принты 2022 года</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="site-menu__col">
+              <h1 class="site-menu__title">Контактная информация</h1>
+              <ul class="site-menu__list">
+                <li class="site-menu__item">
+                  <a href="#" class="site-menu__link"
+                    >Санкт-Петербург, ул. Жуковского, д. 12</a
+                  >
+                </li>
+                <li class="site-menu__item">
+                  <a href="tel.:+78123157235" class="site-menu__link"
+                    ><div>Телефон: 8 (812) 315-72-35</div></a
+                  >
+                  <a
+                    href="mailto:support@yourwebsite.com"
+                    class="site-menu__link"
+                  >
+                    support@yourwebsite.com
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+    <script src="/scripts/size-selector.js"></script>
+    <script src="/scripts/color-selector.js"></script>
+    <script src="/scripts/tab-selector.js"></script>
+  </body>
+</html>
